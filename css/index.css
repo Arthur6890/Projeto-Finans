@@ -1,0 +1,91 @@
+#home{
+    background-color: #FFC107;
+    color: white;
+}
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.juros{
+    background-color: #fff5d7;
+}
+#botao{
+    color: white;
+    border-top-left-radius: 0px 
+}
+
+#botao:hover{
+    background-color: #694f00;
+    
+}
+
+#botao2{
+    color: white;
+}
+
+#botao2:hover{
+    background-color: #694f00;
+    
+}
+
+footer{
+    background-color: #FFC107;
+    color: white;
+    margin: 0;
+    padding: 20px 0 30px 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#icon{
+    color: aliceblue;
+}
+
+#icon1{
+    color: aliceblue;
+    object-fit: none;
+    margin-right: 25px;
+
+}
+
+footer>div>div>div>a.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    /* height: auto; */
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 14px 25px 14px 18px;
+    position: relative;
+    transition: .15s ease-in-out;
+}
+
+#footer-social{
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+    line-height: normal!important;
+    margin: 0 0 5px!important;
+
+}
+
+#footer-social-bold{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+footer>div>div>div>a.btn:hover{
+    background-color: #694f00;
+    transform: scale(1.05);
+
+}
